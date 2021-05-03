@@ -9,4 +9,4 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(${PROJECT_NAME}_test exercise_test.cpp)
 target_link_libraries(${PROJECT_NAME}_test PUBLIC ${PROJECT_NAME}_lib gtest gmock)
-target_include_directories(${PROJECT_NAME}_test PUBLIC ${CMAKE_SOURCE_DIR}  )
+target_include_directories(${PROJECT_NAME}_test PUBLIC ${CMAKE_SOURCE_DIR})

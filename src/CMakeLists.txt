@@ -9,4 +9,3 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(${PROJECT_NAME} exercise.cpp compute_score.cpp)
 add_library(${PROJECT_NAME}_lib STATIC exercise.cpp compute_score.cpp)
-target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR})

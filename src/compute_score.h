@@ -1,7 +1,4 @@
-#include <fstream>
 #include <vector>
-#include <algorithm>
-#include <boost/algorithm/string.hpp>
 
 constexpr int SCORE{64};  
 

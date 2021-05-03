@@ -1,4 +1,8 @@
 #include <iostream>
+#include <fstream>
+#include <algorithm>
+#include <boost/algorithm/string.hpp>
+
 #include "compute_score.h"
 
 void read_file(std::string file, std::vector<std::string> &names){
